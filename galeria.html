@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/637ee434dc.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/app.css">
+    <link rel="stylesheet" href="./css/galeria.css">
     <title>Muebles Avenida</title>
 </head>
 
@@ -19,7 +20,7 @@
                 <span class="icon-menu" id="btn-menu"><i class="fa-solid fa-bars"></i></span>
                 <ul class="menu" id="menu">
                     <li class="menu__item"><a href="index.html" class="menu__link menu__link--select"><span>HOME</span></a></li>
-                    <li class="menu__item"><a href="galeria.html" class="menu__link"><span>GALERIA</span></a></li>
+                    <li class="menu__item"><a href="" class="menu__link"><span>GALERIA</span></a></li>
                     <li class="menu__item"><a href="" class="menu__link"><span>CONTACTO</span></a></li>
                     <div class="nav-social">
                         <a href="" class="nav-social__item"><i class="fa-brands fa-facebook"></i></a>
@@ -39,86 +40,37 @@
         </div>
     </div>
 
+    <div class="modal" id="modal">
+        <div class="modal__content">
+            <img src="" alt="" class="modal__img" id="modal__img">
+        </div>
+        <div class="modal__boton" id="modal__boton">X</div>
+    </div>
+
     <main class="main">
-        <section class="welcome">
-            <h2 class="section__title">BIENVENIDO!</h2>
-            <p class="welcome__txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis cupiditate sed beatae
-                dolor, molestiae amet totam fugiat quod alias perspiciatis blanditiis eos, asperiores, ratione nemo
-                sapiente. Dignissimos quod ab consequatur?</p>
-            <a href="" class="welcome__btn">LEER MAS</a>
-        </section>
-
-        <section class="container-design">
-            <div class="design__item">
-                <h3 class="design__title">SALONES</h3>
-                <img src="./assets/20220412_115127.jpg" alt="" class="design__img">
-            </div>
-            <div class="design__item">
-                <h3 class="design__title">HABITACIONES</h3>
-                <img src="./assets/20220412_115139.jpg" alt="" class="design__img">
-            </div>
-            <div class="design__item">
-                <h3 class="design__title">HALLS</h3>
-                <img src="./assets/20220412_115157.jpg" alt="" class="design__img">
-            </div>
-            <div class="design__item">
-                <h3 class="design__title">DORMITORIOS</h3>
-                <img src="./assets/20220412_115154.jpg" alt="" class="design__img">
-            </div>
-        </section>
-
-        <section class="container-testimonials">
-            <h3 class="section__title">REVIEWS DE NUESTROS CLIENTES</h3>
-            <img src="./assets/girl.jpg" alt="" class="testimonials__img">
-            <p class="testimonials__txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores iste cum
-                temporibus facilis deserunt. Aperiam animi dolorem, totam nisi amet eligendi hic doloremque iusto
-                eveniet perferendis nam, aliquam molestias officiis.</p>
-            <p class="testimonials__name">PAULA GUTIERREZ</p>
-        </section>
-
-        <section class="container-tips">
-            <div class="design__item">
-                <h3 class="design__title gallery__link">
-                    <a href="galeria.html">GALERIA</a>
-                </h3>
-                <img src="./assets/IMG_20220406_180021.jpg" alt="" class="design__img-2">
-            </div>
-            <div class="container-tip">
-                <div class="box">
-                    <div class="box__icon"><i class="fa-solid fa-compass-drafting"></i></div>
-                    <div class="box__content">
-                        <h3 class="box__title">DISEÑO DE ESPACIOS</h3>
-                        <p class="box__txt">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia numquam
-                            quaerat nostrum harum! Perferendis culpa sed amet est.</p>
-                    </div>
+        <div class="group__gallery">
+            <h2 class="section__title-gallery">Nuestra Galeria</h2>
+            <div class="container__gallery container">
+                <div class="column column--50-25">
+                    <img src="/assets/muebles_1.jpg" alt="" class="gallery__img gallery__img--big">
+                    <img src="./assets/muebles_2.jpg" alt="" class="gallery__img gallery__img--small">
                 </div>
-                <div class="box">
-                    <div class="box__icon"><i class="fa-solid fa-person"></i></div>
-                    <div class="box__content">
-                        <h3 class="box__title">ASESORAMIENTO PERSONALIZADO</h3>
-                        <p class="box__txt">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia numquam
-                            quaerat nostrum harum! Perferendis culpa sed amet est.</p>
-                    </div>
+                <div class="column column--50-25">
+                    <img src="./assets/muebles_3.jpg" alt="" class="gallery__img gallery__img--small">
+                    <img src="./assets/muebles_4.jpg" alt="" class="gallery__img gallery__img--big">
                 </div>
-                <div class="box">
-                    <div class="box__icon"><i class="fa-solid fa-wrench"></i></div>
-                    <div class="box__content">
-                        <h3 class="box__title">GARANTIA DE 5 AÑOS</h3>
-                        <p class="box__txt">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia numquam
-                            quaerat nostrum harum! Perferendis culpa sed amet est.</p>
-                    </div>
+                <div class="column column--50-25">
+                    <img src="./assets/muebles_5.jpg" alt="" class="gallery__img gallery__img--big">
+                    <img src="./assets/muebles_6.jpg" alt="" class="gallery__img gallery__img--small">
+                </div>
+                <div class="column column--50-25">
+                    <img src="./assets/muebles_7.jpg" alt="" class="gallery__img gallery__img--small">
+                    <img src="./assets/muebles_8.jpg" alt="" class="gallery__img gallery__img--big">
                 </div>
             </div>
-        </section>
-
-        <section class="newsletter">
-            <h2 class="section__title">NEWSLETTER</h2>
-            <form action="" method="post" class="form">
-                <input type="email" placeholder="Email" class="form__mail">
-                <input type="submit" class="form__submit" value="Suscribete">
-            </form>
-        </section>
+        </div>
     </main>
+
 
     <footer class="main-footer">
         <div class="container">
@@ -180,6 +132,7 @@
     </footer>
 
     <script src="./js/app.js"></script>
+    <script src="./js/modal.js"></script>
 </body>
 
 </html>

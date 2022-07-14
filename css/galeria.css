@@ -1,0 +1,139 @@
+.container__gallery {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.column {
+    width: 100%;
+}
+
+.section__title-gallery {
+    text-align: center;
+    position: relative;
+    padding: 30px;
+}
+
+.section__title-gallery:before {
+    content: "";
+    width: 200px;
+    height: 2px;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    background: #EEAD33;
+    margin-top: 25px;
+}
+
+.gallery__img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.gallery__img:hover {
+    transform: scale(1.02);
+}
+
+.modal {
+    display: none;
+    width: 100%;
+    min-height: 100vh;
+    background: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100000;
+    object-fit: cover;
+}
+
+.modal__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 20px 0;
+}
+
+.modal__img {
+    width: 80%;
+    height: 85%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.modal__boton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    background: #EEAD33;
+    font-size: 2.2em;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.modal--show {
+    display: block;
+}
+
+
+@media screen and (min-width:495px) {
+    
+    .section__title-gallery {
+        text-align: center;
+        position: relative;
+        padding-top: 55px;
+    }
+    
+    .section__title-gallery:before {
+        content: "";
+        width: 200px;
+        height: 2px;
+        top: -15px;
+        left: 50%;
+        transform: translateX(-50%);
+        position: absolute;
+        background: #EEAD33;
+        margin-top: 50px;
+    }
+
+    .gallery__img {
+        border-radius: 5px;
+    }
+
+}
+
+@media screen and (min-width:920px) {
+     
+    .container__gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 25px;
+    }
+    
+    .column--50-25 {
+        width: 49%;
+        margin: 0 2px;
+    }
+
+    .gallery__img--big {
+        height: 400px;
+    }
+
+    .gallery__img--small {
+        height: 200px;
+    }
+
+}
