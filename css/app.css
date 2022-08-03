@@ -561,7 +561,7 @@ p {
 @media screen and (min-width: 495px) {
 
     .main {
-        margin-top: 305px;
+        margin-top: 360px;
     }
 
     .main-title {
@@ -585,10 +585,6 @@ p {
 }
 
 @media screen and (min-width: 600px) {
-
-    .main {
-        margin-top: 330px;
-    }
 
     .section__title {
         padding: 0 15px;
@@ -645,7 +641,7 @@ p {
     }
 
     .main {
-        margin-top: 400px;
+        margin-top: 415px;
     }
 
     .box {
@@ -685,7 +681,7 @@ p {
     }
 
     .banner {
-        min-height: 650px;
+        min-height: 100vh;
         font-size: 1.5em;
     }
 
@@ -694,7 +690,7 @@ p {
     }
 
     .banner:before {
-        min-height: 650px;
+        min-height: 100vh;
     }
     
     .nav-social__item {
@@ -709,7 +705,7 @@ p {
     }
 
     .main {
-        margin-top: 525px;
+        margin-top: 580px;
     }
 
     .container-design,
@@ -754,7 +750,18 @@ p {
 }
 
 @media screen and (min-width: 1128px) {
+    .banner {
+        min-height: 90vh;
+        font-size: 2em;
+    }
 
+    .banner:before {
+        min-height: 90vh;
+    }
+
+    .main {
+        margin-top: 725px;
+    }
     .container {
         width: 1000px;
         margin: auto;
