@@ -5,4 +5,14 @@
 - Tiene una sección de galería donde se muestran diferentes fotos a través de un modal.
 - Creado en HTML, CSS y Javascript.
 
-https://mueblesavenida-responsive.netlify.app/
+# Autor
+
+- https://www.linkedin.com/in/pablo-guti%C3%A9rrez-mu%C3%B1oz-97b558247/
+
+# Web
+
+- https://muebles-avenida.netlify.app/
+
+# Contacto
+
+- pablo.gutierrez.munoz@gmail.com
