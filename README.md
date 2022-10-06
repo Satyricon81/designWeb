@@ -8,11 +8,12 @@
 # Autor
 
 - https://www.linkedin.com/in/pablo-guti%C3%A9rrez-mu%C3%B1oz-97b558247/
+- www.pablogutierrezdev.com
 
 # Web
 
-- https://muebles-avenida.netlify.app/
+- mueblesavenida.pablogutierrezdev.com
 
 # Contacto
 
-- pablo.gutierrez.munoz@gmail.com
+- info@pablogutierrezdev.com
